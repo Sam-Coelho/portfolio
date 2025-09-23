@@ -1,0 +1,28 @@
+.txts{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgMeio{
+    
+    width:35vw;
+    height:auto
+}
+#conteudo{
+    position: fixed;
+    left:15vw;
+    top:70px;
+    width: 70vw;
+}
+
+.inf{
+    position: fixed;
+    bottom: 20px;
+    right:10vw;
+    text-align: right;
+
+}
+p{
+    position: relative;
+    top:30px;
+}

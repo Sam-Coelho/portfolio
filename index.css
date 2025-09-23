@@ -1,0 +1,122 @@
+
+
+
+@media (min-width: 700px) {
+    #TituloText h2{
+        position: relative;
+        top:-90px;
+    }
+  }
+  @media (max-width: 700px) {
+    #TituloText h2{
+        position: relative;
+        top:-40px;
+    }
+  }
+
+  .meu-form {
+    max-width: 200px;         /* largura máxima */
+    margin: 20px auto;        /* centralizar */
+    padding: 20px;
+    border-radius: 10px;      /* cantos arredondados */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .meu-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #32304e;
+  }
+  
+  .meu-form label {
+    display: block;           /* ocupa linha inteira */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #32304e;
+  }
+  
+  .meu-form input,
+  .meu-form textarea,
+  .meu-form select {
+    width: 100%;              /* ocupar toda a largura */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .meu-form input:focus,
+  .meu-form textarea:focus,
+  .meu-form select:focus {
+    border-color: #5c8a66;     /* azul quando em foco */
+    outline: none;
+  }
+  
+  .meu-form button {
+    width: 100%;
+    padding: 12px;
+    background: #5c8a66;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .meu-form button:hover {
+    background: #32304e;      /* cor mais escura ao passar o mouse */
+  }
+  #projetosPrinc{
+    display: flex;         
+  flex-direction: row;   
+  }
+  .proj{
+    width:50vw;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+  }
+  #p1Img{
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  #p1H3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22445b;
+  }
+
+
+  #educacao-e-linguas{
+    position: relative;
+    top: 120px;
+    display: flex;         
+  flex-direction: row;   
+  }
+ 
+
+  #Listas{
+  display: flex;         
+  flex-direction: row; 
+  }
+
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #l1 li::before {
+    content: "";
+    display: inline-block;
+    width: 16px;  /* tamanho que você quer */
+    height: 16px;
+    margin-right: 15px;
+    background: url('imagens/butts/iconeUL.png') no-repeat center/contain;
+  }
+ 

@@ -1,0 +1,45 @@
+.dotline{
+    display: flex;
+    flex-direction: row; 
+    width: 5vw;
+}
+.dot{
+    width:2%;
+    height:auto;
+    padding-right: 3%;
+}
+
+.Conteudo{
+    display: flex;
+    flex-direction: row; 
+    width:100%;
+    gap:5vw;
+}
+.imgss{
+width: 40vw;
+height: auto;
+}
+
+#fase1 .Conteudo{
+    gap:10vw;
+}
+.inftxt{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40vw;
+    display: box;
+    padding-right: 10vw;
+    line-height: 1.5;
+}
+
+#fase2{
+    background-color: white;
+    width: 100vw;
+}
+
+#fase2 h3{
+    color:#22445b;
+    text-align: right;
+    position: relative;
+    right:10vw;
+}
