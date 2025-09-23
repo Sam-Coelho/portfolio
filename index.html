@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Portfórlio</title>
+    <link rel="stylesheet" href="geral.css">
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="content">
+        <div id="Titulo">
+            <div id="TituloText">
+                <h1>Portfólio</h1>
+                <h2>Sam Marques Coelho</h2>
+            </div>
+            <img id="autoretrato" src="imagens/autoretrato.png" alt="aranha">
+        </div>
+        <div id="part1">
+            <div id="aboutme">
+                <div>
+                </div>
+                <img id="pic" scr="imagens/fotoPort.jpg">
+            </div>
+            <div id="indice">
+                <div id="title"></div>
+                <div id="indicetext"></div>
+            </div>
+            <p class="space">.</p>
+        </div>
+    </div>
+    <div id="projetosPart">
+        <div class="content">
+            <div id="headdosProjetos">
+                <h2> Projetos</h2>
+            </div>
+            <div id="projetosPrinc">
+                <img src="imagens/butts/setaEsquerda.png" id="Esq" class="seta itenC">
+                <div id="projetosCarrossel" class="itenC">
+                    <div class="proj">
+                        <img id="p1Img">
+                        <h3 id="p1H3"></h3>
+                        <a id="p1A"></a>
+                    </div>
+                </div>
+                <img src="imagens/butts/setaDireita.png" id="Dir"class="seta itenC">
+                <form class="meu-form itenC" id="filtros">
+                    <!-- Filtro -->
+                    <label for="filtro">Competencias</label>
+                    <select id="filtro" name="filtro">
+                      <option value="">Todas</option>
+                      <option value="WebD">Web develop (HTML/JS/CSS)</option>
+                      <option value="Tipografia">Tipografia</option>
+                      <option value="DesignIV">Design de Identidade visual</option>
+                      <option value="IlustracaoDigital">Ilustração Digital</option>
+                      <option value="Paginacao">Paginação</option>
+                      <option value="DesenhoVetorial">Desenho Vetorial</option>
+                      <option value="Prossessing">Programação (Java)</option>
+                      <option value="Dados">Base de dados</option>
+                      <option value="Modelação3D">Modelação 3D</option>
+                      <option value="Fotografia">Fotografia</option>
+                      <option value="Animação">Animação Frame a Frame</option>
+                      <option value="TrabalhoArtesanal">Trabalho artesanal</option>
+                    </select>
+                    <!-- Filtro 2-->
+                    <label for="filtro2">Tipo de projeto</label>
+                    <select id="filtro2" name="filtro2">
+                      <option value="">Todas</option>
+                      <option value="Design">Design</option>
+                      <option value="AudioVisual">AudioVisual</option>
+                      <option value="WebDesign">Web Design and Develop</option>
+                      <option value="Ilustracao">Ilustração</option>
+                      <option value="Programacao">Programação</option>
+                      
+                    </select>
+                    
+                  
+                    <!-- Ordenação -->
+                    <label for="ordenar">Ordenar por:</label>
+                    <select id="ordenar" name="ordenar">
+                      <option value="relevancia">Relevância</option>
+                      <option value="datainicio">Mais recente</option>
+                    </select>
+                  
+                    <!-- Botão -->
+                    <button type="submit">Aplicar</button>
+                  </form>
+            </div>
+            <p class="space">.</p>
+            <p class="space">.</p>
+        </div>
+
+    </div>
+    <div class="content">
+        <div id="educacao-e-linguas">
+            <div id="contactos" class="meiomeio">
+                <h3> Contactos</h3>
+                <div id="Listas">
+                    <ul id="l1">
+                        <li><b>Telemovel</b></li>
+                        <li><b>Gmail</b></li>
+                        <li><b>Instagram</b></li>
+                        <li><b>Site Arte Independente</b></li>
+                    </ul>
+                    <ul id="l2">
+                        <li>+351 914 948 246</li>
+                        <li>samcoelho137@gmail.com</li>
+                        <li>@b.l.u.e.z._</li>
+                        <li><a href="//sam-coelho.github.io/portfolioSam/index.html">Ver site</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="educacao" class="meiomeio">
+                <h3> Educação e Formação</h3>
+                <div id="Listas">
+                    <ul id="l1">
+                        <li><b>Escola Secunaria Avelar Brotero</b> - Ensino Secundario</li>
+                        <li><b>Universidade de Coimbra</b> - Licenciatura Design e Multimedia</li>
+                    </ul>
+                    <ul id="l2">
+                        <li>2019 -2022</li>
+                        <li>2022 - presente</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fixedImages">
+        <img id="aranhacanto" src="imagens/imagensfixed/aranha.png" alt="aranha">
+        <img id="cogumelo" src="imagens/imagensfixed/cogumelos.png" alt="cogumelo">
+    </div>
+    <script src="geral.js"></script>
+    <script src="carrosselProjetos.js"></script>
+</body>

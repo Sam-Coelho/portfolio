@@ -1,0 +1,120 @@
+body{
+    background-color: #22445b;
+}
+
+.content{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 40px;
+}
+
+#aranhacanto{
+    width:45%;
+    height:auto;
+    position:fixed;
+    right:-5px;
+    top:-5px;
+}
+#autoretrato{
+    width:45%;
+    height:auto;
+    position:absolute;
+    right:-5px;
+    top:-5px;
+}
+
+
+@media (min-width: 700px) {
+    #cogumelo{
+        height:60%;
+        width: auto;
+        position: fixed;
+        left:-5px;
+        bottom: -150px;
+    }
+  }
+  @media (max-width: 700px) {
+    #cogumelo{
+        height:40%;
+        width: auto;
+        position: fixed;
+        left:-5px;
+        bottom: -100px;
+    }
+  }
+
+#projetosPart{
+    background-color: white;
+    position: relative;
+    left:-5px;
+    top: 120px;
+    padding: 0px;
+    width:101%;
+    
+}
+#headdosProjetos{
+  display: flex;         
+  flex-direction: row;   
+  gap: 40px;  
+}
+.itenC{
+    display: inline-block;
+  margin-right: 10px;
+}
+.seta{
+    width:20px;
+    height:20px;
+    position: relative;
+    top: 150px;
+}
+
+.seta:hover{
+    width:22px;
+    height:22px;
+    transition: 0.1s;
+}
+
+a{
+    color:#5c8a66;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color:#32304e;
+    transition: 0.3s;
+}
+.space{
+    color: rgba(red, green, blue, 0)
+}
+
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+}
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15vw;
+}
+h2{
+    color: #5c8a66;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+}
+
+#back{
+    position: fixed;
+    top:50px;
+    left:5%;
+}
+ul{
+    list-style-type: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .meiomeio{
+    display: block;
+    width:50%;
+  }
